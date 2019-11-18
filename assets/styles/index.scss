@@ -1,1 +1,27 @@
 @import '~bootstrap/scss/bootstrap';
+
+.topnav {
+  background-color: #00D1B2;
+  color: #ffffff;
+  font-size: 30px;
+  height: 50px;
+  a {
+    color: #ffffff;
+    font-size: 20px;
+    justify-content: flex-end;
+  }
+}
+
+.form-inline {
+  justify-content: center;
+}
+
+.box {
+  align-items: center;
+  border: 2px solid black;
+  display: flex;
+  height: 180px;
+  justify-content: center;
+  margin: 5px;
+  width: 300px;
+}
